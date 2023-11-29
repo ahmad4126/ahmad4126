@@ -1,7 +1,7 @@
 // Main function
 function Main(){
-//alert(" ❤️  صَلَّی اللّٰہُ عَلٰی مُحَمَّد ");
-//getlocation();
+alert(" ❤️  صَلَّی اللّٰہُ عَلٰی مُحَمَّد ");
+getlocation();
 rdata();
 calc();
 cdata();
@@ -39,9 +39,8 @@ tzone = cdate.getTimezoneOffset()/-60;
 	else toolb = eval(InForm.toolb.value);
 	if(InForm.st1.value == "")  st1 = tzone;
 	else st1 = eval(InForm.st1.value);
-	//if(Math.abs(st1-toolb/15)>3) { tz='\r\n'+"Check standard time and longitude are correct values"; alert(tz); }
-	//else tz="";
-	tz="";
+	if(Math.abs(st1-toolb/15)>3) { tz='\r\n'+"Check standard time and longitude are correct values";}
+	else tz="";
 	if(InForm.year26.value == "")  { year26 = cyear;}
 	else { year26 = eval(InForm.year26.value); }
 	if(InForm.month26.value == "")  month26 = cmonth;
