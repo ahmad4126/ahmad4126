@@ -1,4 +1,3 @@
-<script language="JavaScript">
 var dtr = Math.PI/180;
 //Auxiliary functions
 //Sine of angles in degrees
@@ -1189,7 +1188,4 @@ EOTt=eot(GHAstar);
 //dect=11
 if (sm==1) {GHA25=GHAsun; DEC25=DECsun; EOT25=EOTs; HP25=HPsun; SD25=SDsun; }
 if (sm==2) {GHA25=GHAmoon; DEC25=DECmoon; EOT25=EOTm3; HP25=HPmoon; SD25=SDmoon; }
-if (sm==-1) {GHA25=GHAstar; DEC25=dect; EOT25=EOTt; HP25=0; SD25=0; }
-
-}
-</script>
+if (sm==-1) {GHA25=GHAstar; DEC25=dect; EOT25=EOTt; HP25=0; SD25=0; } }
