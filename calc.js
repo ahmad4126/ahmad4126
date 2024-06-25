@@ -106,7 +106,8 @@ tzone = cdate.getTimezoneOffset()/-60;
 	if (dmm==5) { arzm=33.336437; toolm=44.407943; }
 	if (dmm==6) { arzm=28.361869; toolm=79.408571; }
 	if (dmm==7) { arzm=24.894753; toolm=67.061414; }
-	
+	if (dmm==8) { arzm=arzm; toolm=toolm; }
+		
 	qdir =dirp2p(arzm,toolm,arzb,toolb,1);
 qdir26= dirp2p2(arzm,toolm,arzb,toolb,1);
 	if (year26==9) { year26=cyear; dmm=9; qdir=dirp; }
